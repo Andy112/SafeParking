@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="SafeParking:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SafeParking.war">
+      <element id="artifact" artifact-name="SafeParking:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JPA 2.0-2.0" />
+          <element id="library" level="project" name="mysql-connector-java" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
